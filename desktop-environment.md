@@ -19,6 +19,15 @@ You can use yum groups to easily install a wide range of packages and desktop en
 yum groupinstall Xfce
 ```
 
+### Install & enable XRDP
+XRDP is the opensource RDP server which is far superior to that of VNC.
+
+```
+yum install -y xrdp
+systemctl enable xrdp
+systemctl start xrdp
+```
+
 ### Update firewall
 We need to allow RDP port 3389 on the local firewall.
 
@@ -28,6 +37,16 @@ _Note: You may also need to update your firewall rules if you're using a cloud p
 firewall-cmd --permanent --add-port=3389/tcp
 firewall-cmd --reload
 ```
+
+### Set the default Xclient
+```
+echo xfce4-session > ~/.Xclients
+```
+
+### Configure local user account
+XRDP will use a local user account and password for authentication.
+Login to your box and issue a `passwd` command to set your users password if you haven't done so already.
+If you do not know the password simply run it as root such as `sudo passwd <username>`
 
 ### Connecting to your desktop
 Simply open up your Remote Desktop Connection Client and connect to the host/ip of your new box.
