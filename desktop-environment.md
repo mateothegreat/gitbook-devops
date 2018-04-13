@@ -1,6 +1,7 @@
 # Desktop Environment Setup
 
 [![asciicast](https://asciinema.org/a/uB6fukBhwP33fe4Z2MdYIILH8.png)](https://asciinema.org/a/uB6fukBhwP33fe4Z2MdYIILH8)
+https://asciinema.org/a/uB6fukBhwP33fe4Z2MdYIILH8
 
 ### Install the epel-release
 The epel-release package will configure the epel repository for yum.
