@@ -19,6 +19,10 @@ sudo systemctl enable docker
 sudo systemctl start docker
 ```
 ##### Give local user docker permissions
+You can grant individual users permissions to interact with the docker daemon by adding them to the `docker` group.
+
+> Once you add a user to the docker group they will need to re-login before using the `docker` command.
+
 ```
 sudo usermod -aG docker $USER
 ```
