@@ -1,6 +1,6 @@
 # Desktop Environment Setup
 
-{% asciinema %}https://asciinema.org/a/POrFSlT487SPcL2lSlVnTNA87{% endasciinema %}
+<script src="https://asciinema.org/a/POrFSlT487SPcL2lSlVnTNA87.js" id="asciicast-POrFSlT487SPcL2lSlVnTNA87" async></script>
 
 ### Install the epel-release
 
