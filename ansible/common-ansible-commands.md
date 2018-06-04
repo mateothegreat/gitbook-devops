@@ -2,6 +2,8 @@
 
 ### Connecting to localhost
 
+You can tell ansible to bypass ssh and use a "local" connection in both your playbooks and inventory file by specifying `ansible_connection=local`
+
 {% code-tabs %}
 {% code-tabs-item title="/etc/ansible/hosts" %}
 ```bash
