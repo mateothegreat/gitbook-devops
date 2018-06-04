@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Desktop Environment](desktop-environment.md)
 * [Ansible](ansible/README.md)
-  * [Common Ansible Commands](ansible/common-ansible-commands.md)
+  * [Common Commands](ansible/common-ansible-commands.md)
 * [Docker](docker.md)
 * [CentOS NAT Server](centos-nat-server.md)
 * [Cisco](cisco.md)
